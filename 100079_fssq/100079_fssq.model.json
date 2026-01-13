@@ -1,0 +1,48 @@
+{
+    "model": "model.moc",
+    "textures": [
+        "texture_00.png"
+    ],
+    "version": "Sample 1.0.0",
+    "physics": "physics.json",
+    "motions": {
+        "idle": [
+            {
+                "file": "idle.mtn"
+            }
+        ],
+        "tap_body": [
+            {
+                "file": "diantou.mtn"
+            },
+            {
+                "file": "taishou.mtn"
+            },
+            {
+                "file": "xiyu.mtn"
+            }
+        ]
+    },
+    "expressions": [
+        {
+            "name": "chijing",
+            "file": "chijing.exp.json"
+        },
+        {
+            "name": "idle",
+            "file": "idle.exp.json"
+        },
+        {
+            "name": "shengqi",
+            "file": "shengqi.exp.json"
+        },
+        {
+            "name": "wenrou",
+            "file": "wenrou.exp.json"
+        },
+        {
+            "name": "zoushen",
+            "file": "zoushen.exp.json"
+        }
+    ]
+}

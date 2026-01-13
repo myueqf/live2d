@@ -1,0 +1,49 @@
+{
+    "model": "model.moc",
+    "textures": [
+        "texture_00.png"
+    ],
+    "version": "Sample 1.0.0",
+    "physics": "physics.json",
+    "motions": {
+        "idle": [
+            {
+                "file": "idle.mtn"
+            }
+        ],
+        "tap_body": [
+            {
+                "file": "zhayun.mtn"
+            },
+            {
+                "file": "chayao.mtn"
+            }
+        ]
+    },
+    "expressions": [
+        {
+            "name": "hejiu",
+            "file": "hejiu.exp.json"
+        },
+        {
+            "name": "idle",
+            "file": "idle.exp.json"
+        },
+        {
+            "name": "kaixin",
+            "file": "kaixin.exp.json"
+        },
+        {
+            "name": "shiluo",
+            "file": "shiluo.exp.json"
+        },
+        {
+            "name": "weimiao",
+            "file": "weimiao.exp.json"
+        },
+        {
+            "name": "xuanyuan",
+            "file": "xuanyuan.exp.json"
+        }
+    ]
+}

@@ -1,0 +1,45 @@
+{
+    "model": "model.moc",
+    "textures": [
+        "texture_00.png"
+    ],
+    "version": "Sample 1.0.0",
+    "physics": "physics.json",
+    "motions": {
+        "idle": [
+            {
+                "file": "idle.mtn"
+            }
+        ],
+        "tap_body": [
+            {
+                "file": "nanshou.mtn"
+            },
+            {
+                "file": "fouren.mtn"
+            },
+            {
+                "file": "yaoqing.mtn"
+            },
+            {
+                "file": "jingquan.mtn"
+            },
+            {
+                "file": "kending.mtn"
+            },
+            {
+                "file": "yihuo.mtn"
+            }
+        ]
+    },
+    "expressions": [
+        {
+            "name": "idle",
+            "file": "idle.exp.json"
+        },
+        {
+            "name": "kaixin",
+            "file": "kaixin.exp.json"
+        }
+    ]
+}

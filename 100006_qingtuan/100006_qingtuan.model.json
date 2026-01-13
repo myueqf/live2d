@@ -1,0 +1,41 @@
+{
+    "model": "model.moc",
+    "textures": [
+        "texture_00.png"
+    ],
+    "version": "Sample 1.0.0",
+    "physics": "physics.json",
+    "motions": {
+        "idle": [
+            {
+                "file": "idle.mtn"
+            }
+        ],
+        "tap_body": [
+            {
+                "file": "haixiu.mtn"
+            },
+            {
+                "file": "chijing.mtn"
+            },
+            {
+                "file": "qifen.mtn"
+            },
+            {
+                "file": "aonao.mtn"
+            },
+            {
+                "file": "kaixin.mtn"
+            },
+            {
+                "file": "sikao.mtn"
+            },
+            {
+                "file": "shangxin.mtn"
+            },
+            {
+                "file": "qinwen.mtn"
+            }
+        ]
+    }
+}

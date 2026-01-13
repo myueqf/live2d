@@ -1,0 +1,82 @@
+{
+    "model": "model.moc",
+    "textures": [
+        "texture_00.png",
+        "texture_01.png"
+    ],
+    "version": "Sample 1.0.0",
+    "physics": "physics.json",
+    "motions": {
+        "idle": [
+            {
+                "file": "idle.mtn"
+            },
+            {
+                "file": "idle_long.mtn"
+            }
+        ],
+        "tap_body": [
+            {
+                "file": "sikao_feng.mtn"
+            },
+            {
+                "file": "baishou_long.mtn"
+            },
+            {
+                "file": "tanshou_feng.mtn"
+            },
+            {
+                "file": "sikao_long.mtn"
+            },
+            {
+                "file": "chuchang.mtn"
+            },
+            {
+                "file": "yaotou_long.mtn"
+            },
+            {
+                "file": "waitou_long.mtn"
+            },
+            {
+                "file": "diantou_feng.mtn"
+            },
+            {
+                "file": "waitou_feng.mtn"
+            },
+            {
+                "file": "diantou_long.mtn"
+            },
+            {
+                "file": "shenshou_feng.mtn"
+            },
+            {
+                "file": "hezhang_long.mtn"
+            },
+            {
+                "file": "yaotou_feng.mtn"
+            }
+        ]
+    },
+    "expressions": [
+        {
+            "name": "chijing",
+            "file": "chijing.exp.json"
+        },
+        {
+            "name": "haixiu",
+            "file": "haixiu.exp.json"
+        },
+        {
+            "name": "kuxiao",
+            "file": "kuxiao.exp.json"
+        },
+        {
+            "name": "wanwei",
+            "file": "wanwei.exp.json"
+        },
+        {
+            "name": "weinan",
+            "file": "weinan.exp.json"
+        }
+    ]
+}

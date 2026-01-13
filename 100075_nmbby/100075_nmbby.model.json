@@ -1,0 +1,69 @@
+{
+    "model": "model.moc",
+    "textures": [
+        "texture_00.png"
+    ],
+    "version": "Sample 1.0.0",
+    "physics": "physics.json",
+    "motions": {
+        "idle": [
+            {
+                "file": "idle.mtn"
+            }
+        ],
+        "tap_body": [
+            {
+                "file": "naotou.mtn"
+            },
+            {
+                "file": "yaotou.mtn"
+            },
+            {
+                "file": "woquan.mtn"
+            },
+            {
+                "file": "guihun.mtn"
+            },
+            {
+                "file": "diantou.mtn"
+            },
+            {
+                "file": "banjiangshi.mtn"
+            }
+        ]
+    },
+    "expressions": [
+        {
+            "name": "chijing",
+            "file": "chijing.exp.json"
+        },
+        {
+            "name": "duqi",
+            "file": "duqi.exp.json"
+        },
+        {
+            "name": "haisao",
+            "file": "haisao.exp.json"
+        },
+        {
+            "name": "idle",
+            "file": "idle.exp.json"
+        },
+        {
+            "name": "kaixin",
+            "file": "kaixin.exp.json"
+        },
+        {
+            "name": "lengmo",
+            "file": "lengmo.exp.json"
+        },
+        {
+            "name": "shenmi",
+            "file": "shenmi.exp.json"
+        },
+        {
+            "name": "weiqu",
+            "file": "weiqu.exp.json"
+        }
+    ]
+}
