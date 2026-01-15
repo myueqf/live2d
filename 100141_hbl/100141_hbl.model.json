@@ -1,0 +1,135 @@
+{
+    "model": "model.moc",
+    "textures": [
+        "texture_00.png",
+        "texture_01.png",
+        "texture_02.png",
+        "texture_03.png",
+        "texture_04.png"
+    ],
+    "version": "Sample 1.0.0",
+    "motions": {
+        "idle": [
+            {
+                "file": "idle.mtn"
+            },
+            {
+                "file": "idle1.mtn"
+            },
+            {
+                "file": "idle2.mtn"
+            }
+        ],
+        "tap_body": [
+            {
+                "file": "mofang.mtn"
+            },
+            {
+                "file": "diantou_xiaoyu.mtn"
+            },
+            {
+                "file": "yaotou_xiaoyu.mtn"
+            },
+            {
+                "file": "qidao_xiaoyu.mtn"
+            },
+            {
+                "file": "chuchang.mtn"
+            },
+            {
+                "file": "motou.mtn"
+            },
+            {
+                "file": "mimi.mtn"
+            },
+            {
+                "file": "tanshou_dayu.mtn"
+            },
+            {
+                "file": "sikao_dayu.mtn"
+            },
+            {
+                "file": "wuxin_xiaoyu.mtn"
+            },
+            {
+                "file": "diantou_dayu.mtn"
+            },
+            {
+                "file": "yaotou_dayu.mtn"
+            },
+            {
+                "file": "shuohua.mtn"
+            }
+        ]
+    },
+    "expressions": [
+        {
+            "name": "chenjin_xiaoyu",
+            "file": "chenjin_xiaoyu.exp"
+        },
+        {
+            "name": "chijing_dayu",
+            "file": "chijing_dayu.exp"
+        },
+        {
+            "name": "chijing_xiaoyu",
+            "file": "chijing_xiaoyu.exp"
+        },
+        {
+            "name": "haixiu_dayu",
+            "file": "haixiu_dayu.exp"
+        },
+        {
+            "name": "haixiu_xiaoyu",
+            "file": "haixiu_xiaoyu.exp"
+        },
+        {
+            "name": "idle",
+            "file": "idle.exp"
+        },
+        {
+            "name": "idle_dayu",
+            "file": "idle_dayu.exp"
+        },
+        {
+            "name": "idle_xiaoyu",
+            "file": "idle_xiaoyu.exp"
+        },
+        {
+            "name": "kaixin_dayu",
+            "file": "kaixin_dayu.exp"
+        },
+        {
+            "name": "kaixin_xiaoyu",
+            "file": "kaixin_xiaoyu.exp"
+        },
+        {
+            "name": "manzu_xiaoyu",
+            "file": "manzu_xiaoyu.exp"
+        },
+        {
+            "name": "nanguo_dayu",
+            "file": "nanguo_dayu.exp"
+        },
+        {
+            "name": "nanguo_xiaoyu",
+            "file": "nanguo_xiaoyu.exp"
+        },
+        {
+            "name": "shengqi_dayu",
+            "file": "shengqi_dayu.exp"
+        },
+        {
+            "name": "shengqi_xiaoyu",
+            "file": "shengqi_xiaoyu.exp"
+        },
+        {
+            "name": "wanwei_dayu",
+            "file": "wanwei_dayu.exp"
+        },
+        {
+            "name": "wugu_dayu",
+            "file": "wugu_dayu.exp"
+        }
+    ]
+}

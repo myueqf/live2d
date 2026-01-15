@@ -1,0 +1,66 @@
+{
+    "model": "model.moc",
+    "textures": [
+        "texture_00.png",
+        "texture_01.png",
+        "texture_02.png",
+        "texture_03.png",
+        "texture_04.png"
+    ],
+    "version": "Sample 1.0.0",
+    "motions": {
+        "idle": [
+            {
+                "file": "idle.mtn"
+            }
+        ],
+        "tap_body": [
+            {
+                "file": "tanshou_dayu.mtn"
+            },
+            {
+                "file": "sikao_dayu.mtn"
+            },
+            {
+                "file": "diantou_dayu.mtn"
+            },
+            {
+                "file": "yaotou_dayu.mtn"
+            }
+        ]
+    },
+    "expressions": [
+        {
+            "name": "chijing_dayu",
+            "file": "chijing_dayu.exp"
+        },
+        {
+            "name": "haixiu_dayu",
+            "file": "haixiu_dayu.exp"
+        },
+        {
+            "name": "idle_dayu",
+            "file": "idle_dayu.exp"
+        },
+        {
+            "name": "kaixin_dayu",
+            "file": "kaixin_dayu.exp"
+        },
+        {
+            "name": "nanguo_dayu",
+            "file": "nanguo_dayu.exp"
+        },
+        {
+            "name": "shengqi_dayu",
+            "file": "shengqi_dayu.exp"
+        },
+        {
+            "name": "wanwei_dayu",
+            "file": "wanwei_dayu.exp"
+        },
+        {
+            "name": "wugu_dayu",
+            "file": "wugu_dayu.exp"
+        }
+    ]
+}

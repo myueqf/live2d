@@ -1,0 +1,66 @@
+{
+    "model": "model.moc",
+    "textures": [
+        "texture_00.png",
+        "texture_01.png",
+        "texture_02.png",
+        "texture_03.png",
+        "texture_04.png"
+    ],
+    "version": "Sample 1.0.0",
+    "motions": {
+        "idle": [
+            {
+                "file": "idle.mtn"
+            }
+        ],
+        "tap_body": [
+            {
+                "file": "diantou_xiaoyu.mtn"
+            },
+            {
+                "file": "yaotou_xiaoyu.mtn"
+            },
+            {
+                "file": "qidao_xiaoyu.mtn"
+            },
+            {
+                "file": "wuxin_xiaoyu.mtn"
+            }
+        ]
+    },
+    "expressions": [
+        {
+            "name": "chenjin_xiaoyu",
+            "file": "chenjin_xiaoyu.exp"
+        },
+        {
+            "name": "chijing_xiaoyu",
+            "file": "chijing_xiaoyu.exp"
+        },
+        {
+            "name": "haixiu_xiaoyu",
+            "file": "haixiu_xiaoyu.exp"
+        },
+        {
+            "name": "idle_xiaoyu",
+            "file": "idle_xiaoyu.exp"
+        },
+        {
+            "name": "kaixin_xiaoyu",
+            "file": "kaixin_xiaoyu.exp"
+        },
+        {
+            "name": "manzu_xiaoyu",
+            "file": "manzu_xiaoyu.exp"
+        },
+        {
+            "name": "nanguo_xiaoyu",
+            "file": "nanguo_xiaoyu.exp"
+        },
+        {
+            "name": "shengqi_xiaoyu",
+            "file": "shengqi_xiaoyu.exp"
+        }
+    ]
+}
