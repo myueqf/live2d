@@ -1,0 +1,64 @@
+{
+    "model": "model.moc",
+    "textures": [
+        "texture_00.png"
+    ],
+    "version": "Sample 1.0.0",
+    "motions": {
+        "idle": [
+            {
+                "file": "idle.mtn"
+            }
+        ],
+        "tap_body": [
+            {
+                "file": "shoutao.mtn"
+            },
+            {
+                "file": "yaotou.mtn"
+            },
+            {
+                "file": "baobi.mtn"
+            },
+            {
+                "file": "haoling.mtn"
+            },
+            {
+                "file": "waitou.mtn"
+            },
+            {
+                "file": "diantou.mtn"
+            }
+        ]
+    },
+    "expressions": [
+        {
+            "name": "chensi",
+            "file": "chensi.exp"
+        },
+        {
+            "name": "haixiu",
+            "file": "haixiu.exp"
+        },
+        {
+            "name": "idle",
+            "file": "idle.exp"
+        },
+        {
+            "name": "kaixin",
+            "file": "kaixin.exp"
+        },
+        {
+            "name": "lengxiao",
+            "file": "lengxiao.exp"
+        },
+        {
+            "name": "nanguo",
+            "file": "nanguo.exp"
+        },
+        {
+            "name": "shengqi",
+            "file": "shengqi.exp"
+        }
+    ]
+}
