@@ -1,4 +1,4 @@
-name: 生成文件列表～
+name: 生成Live2D列表～
 
 on:
   push:
@@ -20,13 +20,27 @@ jobs:
         uses: actions/checkout@v4
 
       - name: ls
-        run: ls -1 >live2dList.txt
-        
+        run: |
+          ls -1 >live2dList.txt
+          cp -v live2dList.txt live2dList-All.txt
+          sed -Ei '/\.md$|\.txt$/d' live2dList.txt live2dList-All.txt
+          cat live2dList.txt
+
+      - name: 过滤有显示问题的模型
+        run: |
+          sed -Ei '/100087_ylxy|100085_dz|100037_pianchuan|150032_ldg_xmyx/d' live2dList.txt
+          cat live2dList.txt
+
+      - name: 过滤少主模型
+        run: |
+          sed -Ei '/110002_shaozhunv|110001_shaozhunv|110102_shaozhunan|110101_shaozhunan/d' live2dList.txt
+          cat live2dList.txt
+
       - name: Upload
         uses: actions/upload-artifact@v4
         with:
           name: QAQ
-          path: "live2dList.txt"
+          path: "live2dList*.txt"
           retention-days: 3
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v2
@@ -35,5 +49,6 @@ jobs:
           tag_name: "latest"
           files: |
             live2dList.txt
+            live2dList-All.txt
           generate_release_notes: true
 
