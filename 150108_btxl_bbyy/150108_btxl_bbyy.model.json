@@ -5,6 +5,7 @@
         "texture_01.png"
     ],
     "version": "Sample 1.0.0",
+    "physics": "physics.prefab",
     "motions": {
         "idle": [
             {
